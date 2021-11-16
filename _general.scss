@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Dosis', 'Yaldevi', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+.navbar__logo{
+    width: 3rem;
+}
+
+footer{
+    background-color: rgb(146, 146, 146);
+    padding: 2rem;
+    
+    .footer__logo{
+        width: 6rem;
+        height: 5.5rem;
+        margin-left: 2rem;
+        box-shadow: rgb(8, 8, 55) 3px 3px 3px;
+    }
+
+    .footer__list{
+        padding-left: 2rem;
+
+        .footer__link{
+            color: white;
+        }
+
+        .footer__link:hover{
+            color: rgb(248, 213, 193);
+        }
+    }
+
+    .footer__iconos{
+        width: 15rem;
+
+        .footer__icon{
+            color: white;
+        }
+
+        .footer__icon:hover{
+            color: rgb(231, 94, 53);
+        }
+    }
+}

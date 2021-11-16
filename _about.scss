@@ -1,0 +1,102 @@
+/****  ****/
+
+.about__titulo{
+    margin: 2rem;
+}
+
+.about__nombre-img{
+    background-color: #f8945f;
+
+    .about__img{
+        max-height: 12rem;
+        max-width: 12rem;
+    }
+}
+
+
+.about__texto{
+    padding: 1rem;
+
+    .about__texto__edu{
+        text-align: right;
+    }
+}
+
+/**** EMPRESA ****/
+
+.about__empresa{
+    margin-top: 4rem;
+
+    .about__empresa__separador{
+        height: 0.5rem;
+        background-color: #5499C7;
+    }
+
+    .about__empresa__title{
+        padding: 1rem;
+    }
+
+    .about__empresa__texto{
+        font-size: larger;
+        padding: 2rem;
+    }
+}
+
+/**** FEATURES ****/
+
+.about__features{
+    background: rgba(#5499C7, .2);
+    padding: 0 3rem 3rem 3rem;
+
+    .about__features__chart{
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .about__features__title{
+        margin: 1rem;
+        color: rgb(250, 103, 6);
+        text-shadow: 0.05rem 0.05rem 0.1rem rgb(13, 3, 100);
+    }
+}
+
+/**** FRASE ****/
+
+.about__frase{
+    margin-top: 1rem;
+    text-align: center;
+
+    .about__frase__chart{
+        border: rgba(250, 103, 6, 0.2) solid 3px;
+        border-radius: 3rem;
+        box-shadow: 0.5rem 0.5rem 0.1rem rgb(250, 103, 6);
+        width: fit-content;
+        padding: 2rem;
+        margin: 3rem 0 4rem 0;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+}
+
+/********** PANTALLA GRANDE **********/
+
+@media screen and (min-width: 768px) {
+
+.about__tools{
+    height: 5rem;
+}
+
+.about__img{
+    width: 12rem;
+}
+
+.about__texto{
+    height: 20rem;
+
+    .about__texto__p{
+        margin-top: 3rem;
+        
+    }
+}
+
+}
