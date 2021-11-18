@@ -17,6 +17,11 @@ a:link, a:visited{
     width: 3rem;
 }
 
+@mixin sectionTitle{
+    font-size: 3rem;
+    margin: 3rem 0 3rem 0;
+}
+
 footer{
     background-color: rgb(146, 146, 146);
     padding: 2rem;
@@ -36,19 +41,20 @@ footer{
         }
 
         .footer__link:hover{
-            color: rgb(248, 213, 193);
+            color: rgb(247, 183, 146);
         }
     }
 
     .footer__iconos{
-        width: 15rem;
+        margin-top: 0.5rem;
 
         .footer__icon{
             color: white;
+            margin: 0.5rem;
         }
 
         .footer__icon:hover{
-            color: rgb(231, 94, 53);
+            color: rgb(247, 183, 146);
         }
     }
 }

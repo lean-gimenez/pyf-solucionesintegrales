@@ -38,19 +38,20 @@ footer .footer__list .footer__link {
 }
 
 footer .footer__list .footer__link:hover {
-  color: #f8d5c1;
+  color: #f7b792;
 }
 
 footer .footer__iconos {
-  width: 15rem;
+  margin-top: 0.5rem;
 }
 
 footer .footer__iconos .footer__icon {
   color: white;
+  margin: 0.5rem;
 }
 
 footer .footer__iconos .footer__icon:hover {
-  color: #e75e35;
+  color: #f7b792;
 }
 
 #logo {
@@ -60,7 +61,8 @@ footer .footer__iconos .footer__icon:hover {
 }
 
 .index__title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .index__texto {
@@ -73,7 +75,8 @@ footer .footer__iconos .footer__icon:hover {
 
 /****  ****/
 .about__titulo {
-  margin: 2rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .about__nombre-img {
@@ -83,6 +86,15 @@ footer .footer__iconos .footer__icon:hover {
 .about__nombre-img .about__img {
   max-height: 12rem;
   max-width: 12rem;
+}
+
+.about__nombre-img__mainChart {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about__nombre-img__mainChart h2 {
+  font-size: 2.5rem;
 }
 
 .about__texto {
@@ -166,7 +178,8 @@ footer .footer__iconos .footer__icon:hover {
 }
 
 .trabajos__title {
-  margin-top: 2rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .trabajos__chart {
@@ -250,7 +263,8 @@ footer .footer__iconos .footer__icon:hover {
 }
 
 .contacto__title {
-  margin-top: 2rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .contacto__texto {
@@ -270,7 +284,8 @@ footer .footer__iconos .footer__icon:hover {
 }
 
 .mapa__title {
-  margin-top: 2rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
 }
 
 .mapa__separador {
@@ -279,7 +294,7 @@ footer .footer__iconos .footer__icon:hover {
 }
 
 .mapa__lista {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 

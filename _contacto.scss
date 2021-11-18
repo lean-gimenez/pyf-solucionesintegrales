@@ -1,5 +1,5 @@
 .contacto__title{
-    margin-top: 2rem;
+    @include sectionTitle;
 }
 
 .contacto__texto{

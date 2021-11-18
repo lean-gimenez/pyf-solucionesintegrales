@@ -1,5 +1,5 @@
 .mapa__title{
-    margin-top: 2rem;
+    @include sectionTitle;
 }
 
 .mapa__separador{
@@ -8,7 +8,7 @@
 }
 
 .mapa__lista{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 2rem;
 
     .mapa__icon{
