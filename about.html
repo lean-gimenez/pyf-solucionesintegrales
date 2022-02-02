@@ -24,9 +24,11 @@
                         <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="about.html">Sobre nosotros</a>
                         </li>
+                        <!--
                         <li class="nav-item">
                         <a class="nav-link" href="trabajos.html">Trabajos</a>
                         </li>
+                        -->
                         <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contactanos</a>
                         </li>
@@ -46,24 +48,49 @@
                 <h1 class="text-center about__titulo">SOBRE NOSOTROS</h1>
                 <img class="about__tools d-none d-lg-flex" src="./img/tools2.JPG" alt="tools">
             </div>
+
+            <!-- INTRO -->
+            <div class="about__empresa d-flex flex-column align-items-center">
+                <div class="container-fluid about__empresa__separador"></div>
+                <div class="about__empresa__title mt-3 mb-3">
+                    <h2>
+                        Te brindamos soluciones a través de nuestros servicios de
+                    </h2>
+                    <div class="text-center mt-3">
+                        <h3>PERSONAL DE SEGURIDAD</h3>
+                        <h3>LIMPIEZA</h3>
+                        <h3>PLOMEROS</h3>
+                        <h3>GASISTAS MATRICULADOS</h3>
+                        <h3>ELECTRICISTA</h3>
+                        <h3>EMERGENCIAS</h3>
+                        <h3>CALL CENTER LAS 24H</h3>
+                    </div>
+                </div>
+                <div class="container-fluid about__empresa__separador"></div>
+            </div>
+
             <!-- PEOPLE CARDS -->
-            <div class="d-flex flex-column flex-lg-row">
+            <div class="d-flex flex-column flex-lg-row mt-5">
 
                 <!-- ALAN CARD -->
                 <div class="d-flex align-items-center about__nombre-img justify-content-between">
                     <div class="d-flex flex-column align-items-center col-6 about__nombre-img__mainChart">
                         <h2 class="text-center">ALAN PÉREZ</h2>
-                        <img class="about__img" src="./img/alan.jpg" alt="Alan Pérez">
+                        <img class="about__img" src="./img/alan.jpeg" alt="Alan Pérez">
                     </div>
                     <div class="col-6 about__texto bg-light border">
-                        <p class="about__texto__p">Soy hijo de un Maestro Mayor de Obras que adquirió desde chico la vocación de servicio y la satisfacción de la tarea resuelta a los tantos inconvenientes que surgen en nuestras casas y trabajos. Con mi experiencia y estudio en Seguridad e Higiene sigo perfeccionando todos los conocimientos a fin de acercarte una solución a los distintos problemas.</p>
+                        <p class="about__texto__p">
+                            Soy estudiante de la Licenciatura de Higiene y Seguridad. Trabajé como bombero voluntario. Actualmente me desempeño como especialista en gestión de trabajo. Mi trabajo consiste en evaluar situaciones problemáticas y brindar la solución más rápida y eficaz para el correcto funcionamiento y mantenimiento de edificios y construcciones desde cero.
+                        </p>
                     </div>
                 </div>
 
                 <!-- EDU CARD -->
                 <div class="d-flex align-items-center justify-content-evenly about__nombre-img">
                     <div class="col-6 about__texto bg-light border">
-                        <p class="about__texto__edu about__texto__p">Soy hijo de un Maestro Mayor de Obras que adquirió desde chico la vocación de servicio y la satisfacción de la tarea resuelta a los tantos inconvenientes que surgen en nuestras casas y trabajos. Con mi experiencia y estudio en Seguridad e Higiene sigo perfeccionando todos los conocimientos a fin de acercarte una solución a los distintos problemas.</p>
+                        <p class="about__texto__edu about__texto__p">
+                            Soy hijo de un Maestro Mayor de Obras que adquirió desde chico la vocación de servicio y la satisfacción de la tarea resuelta a los tantos inconvenientes que surgen en nuestras casas y trabajos. Con mi experiencia y estudio en Seguridad e Higiene sigo perfeccionando todos los conocimientos a fin de acercarte una solución a los distintos problemas.
+                        </p>
                     </div>
                     <div class="d-flex flex-column align-items-center col-6 about__nombre-img__mainChart">
                         <h2 class="text-center">EDUARDO FLORENCIO</h2>
@@ -91,28 +118,28 @@
             
             <!-- 3 ITEMS -->
             <div class="about__features d-lg-flex">
-                <div class="about__features__chart">
+                <div class="about__features__chart col-lg-4">
                     <div class="about__features__title">
                         <h1>ASESORAMIENTO</h1>
                     </div>
                     <p>
-                        Nuestro grupo está constituido por profesionales jóvenes, dinámicos y por demás responsables, los cuales poseen la idoneidad necesaria para brindar un Servicio de Excelencia respecto a la solución que estés buscando.
+                        El equipo de trabajo cuenta con idoneidad y capacidad para trabajos y construcciones de pequeña y gran magnitud.
                     </p>
                 </div>
-                <div class="about__features__chart">
+                <div class="about__features__chart col-lg-4">
                     <div class="about__features__title">
                         <h1>EJECUCIÓN</h1>
                     </div>
                     <p>
-                        Nuestro grupo está constituido por profesionales jóvenes, dinámicos y por demás responsables, los cuales poseen la idoneidad necesaria para brindar un Servicio de Excelencia respecto a la solución que estés buscando.
+                        Contamos con personal capacitado y especializado en el área que sea requerida (gas, electricidad, plomería, limpieza, seguridad), ya sea para mantenimiento o de urgencias.
                     </p>
                 </div>
-                <div class="about__features__chart">
+                <div class="about__features__chart col-lg-4">
                     <div class="about__features__title">
                         <h1>SOLUCIÓN</h1>
                     </div>
                     <p>
-                        Nuestro grupo está constituido por profesionales jóvenes, dinámicos y por demás responsables, los cuales poseen la idoneidad necesaria para brindar un Servicio de Excelencia respecto a la solución que estés buscando.
+                        Nuestro objetivo es acercarte soluciones concretas ante emergencias y mantenimiento, priorizando la velocidad y la eficacia del trabajo. Podés confiar en nosotros las 24h.
                     </p>
                 </div>
             </div>
@@ -130,15 +157,19 @@
     <footer class="container-fluid d-flex justify-content-between ">
         <!-- LOGO + LINKS -->
         <div class="d-flex justify-content-start">
-            <img class="footer__logo" src="./img/logoFondoBlanco.jpg" alt="logo">
+            <a href="index.html">
+                <img class="footer__logo" src="./img/logoFondoBlanco.jpg" alt="logo">
+            </a>
             <div>
                 <ul class="footer__list">
                     <li class="footer__item">
                         <a class="footer__link" href="about.html">Sobre nosotros</a>
                     </li>
+                    <!--
                     <li class="footer__item">
                         <a class="footer__link" href="trabajos.html">Trabajos</a>
                     </li>
+                    -->
                     <li class="footer__item">
                         <a class="footer__link" href="contacto.html">Contactanos</a>
                     </li>
@@ -165,7 +196,7 @@
             </div>
 
             <div>
-                <a class="footer__icon" href="mailto:gimenez.leandro.j@gmail.com">
+                <a class="footer__icon" href="mailto:pyf-solucionesintegrales@gmail.com">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi-envelope" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                     </svg>
